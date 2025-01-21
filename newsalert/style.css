@@ -2,7 +2,7 @@
 Theme Name: 	   NewsAlert
 Text Domain: 	   newsalert
 Template: 			newsmunch
-Version:            1.0.11
+Version:            1.0.12
 Tested up to:       6.7
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -510,4 +510,8 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 
 .wp-block-archives-list a {
     text-decoration: none;
+}
+
+.wc-block-mini-cart__footer .wc-block-components-totals-item.wc-block-mini-cart__footer-subtotal .wc-block-components-totals-item__description {
+    font-size: 1.2rem !important;
 }
