@@ -2,7 +2,7 @@
 Theme Name: 	   NewsAlert
 Text Domain: 	   newsalert
 Template: 			newsmunch
-Version:            1.0.18
+Version:            1.0.19
 Tested up to:       6.7
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -535,4 +535,9 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantit
 table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link:hover, 
 table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link:focus {
     color: var(--dt-main-color) !important;
+}
+
+.wp-block-woocommerce-customer-account a .wc-block-customer-account__account-icon {
+    height: 2rem !important;
+    width: 2rem !important;
 }
