@@ -2,7 +2,7 @@
 Theme Name: 	   NewsAlert
 Text Domain: 	   newsalert
 Template: 			newsmunch
-Version:            1.0.66
+Version:            1.0.67
 Tested up to:       6.9
 Requires at least:  4.7
 Requires PHP:       7.0
@@ -689,5 +689,9 @@ a.wp-block-button__link:focus {
 }
 
 .wp-block-categories-list.has-background {
+    padding: 1rem;
+}
+
+.wp-block-latest-comments.has-background {
     padding: 1rem;
 }
